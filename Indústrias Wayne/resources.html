@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Recursos - Indústrias Wayne</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Recursos</h1>
+        <form id="resourceForm">
+            <input type="text" id="resourceName" placeholder="Nome do recurso" required>
+            <input type="text" id="resourceType" placeholder="Tipo de recurso" required>
+            <input type="number" id="resourceQuantity" placeholder="Quantidade" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <div id="resourceList">
+            <!-- Lista será carregada aqui -->
+        </div>
+        <button id="logoutButton">Sair</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
